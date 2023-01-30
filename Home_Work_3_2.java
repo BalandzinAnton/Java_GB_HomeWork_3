@@ -11,10 +11,10 @@ public class Home_Work_3_2 {
 
     public static void main(String[] args) {
         ArrayList<Integer> listCreate = createArray(ARRAY_SIZE);
-        dalArray(listCreate);
+        delArray(listCreate);
     }
 
-    private static void dalArray(ArrayList<Integer> listCreate) {
+    private static void delArray(ArrayList<Integer> listCreate) {
         ArrayList<Integer> listResult = new ArrayList<>();
         for (int i = 0; i < listCreate.size(); i++) {
             if(listCreate.get(i) % 2 != 0) {
